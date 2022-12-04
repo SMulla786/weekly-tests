@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="counter_container">
-      <h1 class="counter_heading">Counter</h1>
-      <br />
-      <div id="counter_dispaly">0</div>
-      <br />
-      <button onclick="decreaseCounting()" class="decrease_btn">
-        DECREASE
-      </button>
-      <button onclick="reasetCounting()" class="reset_btn">RESET</button>
-      <button type="button" onclick="increaseCounting()" class="increase_btn">
-        INCREASE
-      </button>
-    </div>
+    <body id="body">
+      <div class="main_container">
+          <h1 class="heading">Color Scheme Switcher</h1>
+          <div class="colors_circles">
+            <div id="gray-circle" ></div>
+            <div id="white-circle"></div>
+            <div id="blue-circle" ></div>
+            <div id="yellow-circle" ></div>
+          </div>
+          <h2>
+            Try to clicking on one of the above colours <br />to change the
+            background colour of the page
+          </h2>
+        </div>
     <script src="script.js"></script>
   </body>
 </html>
