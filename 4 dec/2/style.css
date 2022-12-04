@@ -1,6 +1,13 @@
 .heading {
   align-self: center;
 }
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
 body {
   display: flex;
   justify-content: center;
