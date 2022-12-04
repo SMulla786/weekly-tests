@@ -6,11 +6,16 @@ var count = 0;
 //   counting.innerHTML = " " + count;
 // });
 function increaseCounting() {
+  counting.style.color = "green";
   count++;
   printCount();
 }
 function decreaseCounting() {
   count--;
+  if (count < 0) {
+    count = 0;
+    counting.style.color = "red";
+  }
   printCount();
 }
 function reasetCounting() {
